@@ -1,0 +1,73 @@
+html {
+	background: url(../assets/backgrounds/BG2EditedWebOptimized.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#LanguageSelection a:link {
+		color: white;
+		text-decoration: none;}
+#LanguageSelection a:visited {color: white;}
+#LanguageSelection a:hover {color: black; text-decoration: underline; background: #F9EDED}
+
+#LanguageSelection {
+    font-weight: bold;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 110%;
+
+	width: 100%;
+	position: relative;
+	text-align: right;
+	word-spacing: 4px;
+}
+
+#WelcomeVerticalCenter {
+	position: absolute;
+	top: 48%;
+	margin-top: -80px;
+	left: 0;
+	width: 100%;
+}
+
+#WelcomeMainTitle {
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 200%;
+	letter-spacing: 2px;
+	word-spacing: 16px;
+	text-shadow: 2px 2px #000000;
+	
+	opacity: 0.75;
+	text-align: center;
+	width: 100%;
+}
+
+#WelcomeMainSubtitle {
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+    font-size: 140%;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px #000000;
+	
+	text-align: center;
+    padding-top: 155px;
+	position: relative;
+}
+#WelcomeMainSubtitle a:visited {color: white;}
+#WelcomeMainSubtitle a:hover {color: red;}
+
+
+#NavBar a:link {
+        font-weight: bold;
+        font-size: 135%;
+		color: white;
+		text-decoration: none;}
+#NavBar a:visited {color: white;}
+#NavBar a:hover {color: black; text-decoration: underline; background: #F9EDED}
+
+#NavBar {
+	font-family: 'Quicksand', sans-serif;
+	margin-left: 20px;
+}

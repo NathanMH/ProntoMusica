@@ -1,0 +1,166 @@
+/********************
+Author: Nathan Mador-House
+********************/
+
+/********************
+------- INDEX -------
+1. Universal Styles
+2. Header & Nav 
+3. Main Body
+4. Sidebar
+5. Footer/Comments/Forms
+********************/
+
+/********************
+1. Universal Styles
+********************/
+html {
+	background: url(../assets/backgrounds/BG2EditedWebOptimized.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+}
+/********************
+2. Header & Nav
+********************/
+
+#TitleContainer {width: 100%;}
+
+#MainContentBoxTitle {
+	background: #1C1C1C;
+	color: white;
+	margin: -30px auto 0 auto;
+	position: relative;
+	text-align: center;
+	width: 65%;
+}
+
+#Title {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 250%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#Subtitle {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 150%;
+	padding-bottom: 10px;
+}
+
+
+/********************
+3. Main Body
+********************/
+
+#MainContentBox {
+    background: #C1A57F;
+    font-family: 'Lora', sans-serif;
+    margin: 0 auto 0 auto;
+    padding: 15px 0px 15px 0px;
+    position: relative;
+    width: 65%;
+}
+
+.EventSponsor {
+    text-align: center;
+}
+
+.ConcertDate {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 15px 0px 15px 0px;
+    text-align: center;}
+
+.ConcertLocation {text-align: center;}
+
+.Program {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 150%;
+    margin: 0 auto 0 auto;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    width: 65%;
+}
+
+.Featuring {
+    margin: 0 auto 0 auto;
+    padding:10px 0 30px 0;
+    text-align: center;
+    width: 60%;
+}
+
+.Tickets {
+    text-align: center;
+}
+
+td {
+    padding-left: 75px;
+    text-align: left;
+}
+
+hr {
+    margin-top: 30px;
+}
+
+/********************
+4. Sidebar
+********************/
+
+#LanguageSelection a:link {color: white; text-decoration: none}
+#LanguageSelection a:visited {color: white}
+#LanguageSelection a:hover {color: black; text-decoration: underline; background: #F9EDED}
+#LanguageSelection {
+    font-weight: bold;
+	font-family: 'Quicksand', sans-serif;
+    font-size: 135%;
+	width: 100%;
+	position: relative;
+	text-align: right;
+	word-spacing: 4px;
+}
+
+#NavBar a:link {
+        font-weight: bold;
+        font-size: 135%;
+		color: white;
+		text-decoration: none;}
+#NavBar a:visited {color: white;}
+#NavBar a:hover {color: black; text-decoration: underline; background: #F9EDED;}
+#NavBar {font-family: 'Quicksand', sans-serif;margin-left: 20px;}
+
+/********************
+5. Footer/Comments/Forms
+********************/
+
+#DonationContainer {
+    background: #C1A57F;
+    height: 60px;
+    margin: 0 auto 0 auto;
+    position: relative;
+    width: 65%;
+}
+
+#Donation {
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#FooterContainer{
+    background: #1C1C1C;
+    height: 100px;
+    margin: 0px auto 0 auto;
+    position: relative;
+    width: 65%;
+}
+
+#FooterContent{
+    color: #8C600D;
+    height: 100px;
+    line-height: 100px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+}

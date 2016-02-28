@@ -1,0 +1,137 @@
+html {
+	background: url(/assets/backgrounds/BG2EditedWebOptimized.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+}
+
+#LanguageSelection a:link {
+		color: white;
+		text-decoration: none;}
+#LanguageSelection a:visited {color: white;}
+#LanguageSelection a:hover {color: black; text-decoration: underline; background: #F9EDED}
+
+#LanguageSelection {
+    font-weight: bold;
+	font-family: 'Quicksand', sans-serif;
+    font-size: 110%;
+	
+	width: 100%;
+	position: relative;
+	text-align: right;
+	word-spacing: 4px;
+}
+
+#NavBar a:link {
+        font-weight: bold;
+        font-size: 135%;
+		color: white;
+		text-decoration: none;}
+#NavBar a:visited {color: white;}
+#NavBar a:hover {color: black; text-decoration: underline; background: #F9EDED}
+
+#NavBar {
+    width: 190px;
+	font-family: 'Quicksand', sans-serif;
+	margin-left: 20px;
+}
+
+/* Main Content */
+
+#TitleContainer {
+	width: 100%;
+
+}
+
+#MainContentBoxTitle {
+	height: ;
+	background: #1C1C1C;
+	
+	color: white;
+	text-align: center;
+	
+	width: 55%;
+	position: relative;
+	margin: -30px auto 0 auto;
+}
+
+#Title {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 250%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#Subtitle {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 150%;
+	padding-bottom: 10px;
+}
+
+#MainContainer {
+    width: 100%;
+	height: 50%;
+}
+
+#MainContentBox {
+    font-family: 'Lora', sans-serif;
+	text-align: left;
+
+	background: #C1A57F;
+	width: 55%;
+	height: 70%;
+	position: relative;
+	margin: 0 auto 0 auto;
+}
+
+img {
+    float: right;
+    height: 40%;
+    width: 40%;
+    border-left: 20px solid #1C1C1C;
+    border-bottom: 20px solid #1C1C1C;
+}
+
+h3 {
+    text-align: center;
+}
+
+#TextContent {
+    border-top: 30px solid #1C1C1C;
+    border-left: 30px solid #1C1C1C;
+    border-right: 30px solid #1C1C1C;
+
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+#FooterContainer {
+	background: #1C1C1C;
+	width: 55%;
+	height: 140px;
+	position: relative;
+	margin: -16px auto 0 auto;
+}
+
+#Footer{
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	color: #8C600D;
+	padding-top: 20px;
+}
+
+#Construction {
+	text-align: center;
+}
+
+p#Donation {
+    background: #C1A57F;
+    border-top: 5px solid #1C1C1C;
+    border-left: 30px solid #1C1C1C;
+    border-right: 30px solid #1C1C1C;
+
+	text-align: center;
+    padding-top: 15px;
+	padding-bottom: 15px;
+}

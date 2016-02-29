@@ -15,11 +15,11 @@ Author: Nathan Mador-House
 1. Universal Styles
 ********************/
 html {
-	background: url(../assets/backgrounds/BG2EditedWebOptimized.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover; 
+    background: url(../assets/backgrounds/BG2EditedWebOptimized.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
 }
 /********************
 2. Header & Nav
@@ -28,25 +28,25 @@ html {
 #TitleContainer {width: 100%;}
 
 #MainContentBoxTitle {
-	background: #1C1C1C;
-	color: white;
-	margin: -30px auto 0 auto;
-	position: relative;
-	text-align: center;
-	width: 65%;
+    background: #1C1C1C;
+    color: white;
+    margin: -30px auto 0 auto;
+    position: relative;
+    text-align: center;
+    width: 65%;
 }
 
 #Title {
-	font-family: 'Quicksand', sans-serif;
-	font-size: 250%;
-	padding-top: 10px;
-	padding-bottom: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 250%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #Subtitle {
-	font-family: 'Quicksand', sans-serif;
-	font-size: 150%;
-	padding-bottom: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 150%;
+    padding-bottom: 10px;
 }
 
 
@@ -113,19 +113,19 @@ hr {
 #LanguageSelection a:hover {color: black; text-decoration: underline; background: #F9EDED}
 #LanguageSelection {
     font-weight: bold;
-	font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 135%;
-	width: 100%;
-	position: relative;
-	text-align: right;
-	word-spacing: 4px;
+    width: 100%;
+    position: relative;
+    text-align: right;
+    word-spacing: 4px;
 }
 
 #NavBar a:link {
-        font-weight: bold;
-        font-size: 135%;
-		color: white;
-		text-decoration: none;}
+    font-weight: bold;
+    font-size: 135%;
+    color: white;
+    text-decoration: none;}
 #NavBar a:visited {color: white;}
 #NavBar a:hover {color: black; text-decoration: underline; background: #F9EDED;}
 #NavBar {font-family: 'Quicksand', sans-serif;margin-left: 20px;}
